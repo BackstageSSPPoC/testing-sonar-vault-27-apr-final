@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: ${APP_NAME}
   namespace: argocd
+  labels:
+    app.kubernetes.io/name: ${APP_NAME}
 spec:
   project: default
   source:
