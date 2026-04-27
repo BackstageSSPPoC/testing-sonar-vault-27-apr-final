@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testing-sonar-vault-27-apr-final
+  description: Node app that displays time - named testing-sonar-vault-27-apr-final
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/testing-sonar-vault-27-apr-final
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/testing-sonar-vault-27-apr-final/main
+    argocd/app-name: testing-sonar-vault-27-apr-final
+    backstage.io/kubernetes-id: testing-sonar-vault-27-apr-final
+    backstage.io/kubernetes-namespace: default
+    sonarqube.org/project-key: testing-sonar-vault-27-apr-final
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
